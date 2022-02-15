@@ -1,0 +1,107 @@
+/* CSS Reset & Global Styles */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffff;
+  transition: 0.8s all;
+}
+
+.container {
+  border-radius: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  justify-content: center;
+  width: 370px;
+  margin: auto;
+  border: 1px solid #000;
+  background-color: #000;
+}
+.result {
+  width: 59.1%;
+}
+input {
+  padding: 15px;
+  color: rgb(87, 87, 87);
+  font-size: 1em;
+  cursor: pointer;
+  width: 70px;
+  background-color: #fff;
+  border: 1px solid #000;
+  outline: none;
+  border-radius: 4px;
+}
+
+.first-row,
+.second-row,
+.third-row,
+.fourth-row,
+.fifth-row {
+  margin-bottom: 10px;
+}
+input[type="button"] {
+  width: 80px;
+  color: white;
+  background-color: rgb(74, 22, 158);
+}
+input[type="text"] {
+  background-color: #ffff;
+  width: 250px;
+
+}
+input[type="button"]:hover {
+  background-color: rgb(37, 35, 59);
+  color: #fff;
+}
+#clear {
+  color: #fff;
+  background-color: rgb(255, 25, 94);
+}
+button {
+  border: none;
+  padding: 8px;
+  color: white;
+  margin: 2px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 4px;
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  border: none;
+  background-color: rgb(41, 38, 38);
+  padding: 8px;
+  color: white;
+  margin: 2px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 4px;
+  font-size: 0.8em;
+  font-weight: 600;
+}
+.bottom-buttons {
+  display: flex;
+  margin-left: -2.3px;
+}
+.fab {
+  font-size: 1.1em;
+  padding: 0 0.2em;
+}
